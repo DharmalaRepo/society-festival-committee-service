@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tech</groupId>
-	<artifactId>society-festival-comittee-service</artifactId>
+	<artifactId>society-festival-committee-service</artifactId>
 	<version>0.0.1</version>
 	<name>society-festival-committee-service</name>
 	<description>Society Festival Committee</description>
