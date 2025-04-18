@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: society-festival-committee-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: society-festival-committee-service
+  template:
+    metadata:
+      labels:
+        app: society-festival-committee-service
+    spec:
+      containers:
+        - name: society-festival-committee-service
+          image: dharmala/society-festival-committee-service:250417
+          ports:
+            - containerPort: 9096
